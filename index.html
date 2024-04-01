@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kys nigga</title>
+    <title>
+        THE ANTI CCP COALITION
+    </title>
     <style>
+        /* CSS styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
         header {
             background-color: #333;
@@ -17,12 +19,23 @@
             padding: 10px 0;
             text-align: center;
         }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        section {
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #333;
@@ -33,22 +46,106 @@
             width: 100%;
             bottom: 0;
         }
+        /* Sidebar styles */
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        @media screen and (max-height: 450px) {
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 18px;}
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Glory to TAIWAN and USA</h1>
-    </header>
 
-    <div class="container">
-        <h2>only stupid ohio npcs like USSR and CCP</h2>
-        <p>This corny ass shi was made by ig: lilm8inn.</p>
-    </div>
+<header>
+    <h1>THE ANTI CCP COALITION</h1>
+</header>
 
-    <footer>
-        <p>&copy; 2024 nigga. All rights reserved.</p>
-    </footer>
+<nav>
+    <ul>
+        <li>
+            <a href="#" onclick="openNav()">Open Sidebar</a>
+        </li>
+        <li>
+            <a href="#" onclick="closeNav()">Close Sidebar</a>
+        </li>
+    </ul>
+</nav>
+
+<section>
+    <h2>
+        Why Anti-CCP coalition matters?
+    </h2>
+    <p>
+        Since its establishment in 1949, the Communist Party of China (CPC) has been a dominant force shaping the political, economic, and social landscape of the country. While the CPC has achieved remarkable economic growth and development, it also faces significant challenges and criticisms. This page will explore the disadvantages associated with the rule of the Communist Party in China.
+
+        Lack of Political Pluralism:
+One of the primary criticisms of the CPC is its suppression of political pluralism and dissenting voices. The party's monopoly on power has led to limited political freedoms, including restrictions on freedom of speech, assembly, and association. Political dissidents, human rights activists, and members of marginalized groups face censorship, surveillance, and persecution, undermining democratic principles and the rule of law.
+Lack of Accountability and Transparency:
+The centralized nature of the CPC's governance structure often leads to a lack of accountability and transparency. Decision-making processes are opaque, and there is limited public oversight of government actions. This lack of transparency contributes to corruption, nepotism, and abuse of power, eroding public trust in the government and fueling social discontent.
+Growing Socioeconomic Inequality:
+Despite rapid economic growth and poverty reduction, China continues to grapple with widening socioeconomic inequality. The CPC's policies have favored urban areas and state-owned enterprises, exacerbating disparities between rich and poor regions, rural and urban populations, and different socioeconomic groups. The lack of effective social welfare systems further marginalizes vulnerable populations, leading to social unrest and instability.
+Environmental Degradation:
+China's rapid industrialization and pursuit of economic growth have come at a significant environmental cost. The CPC's emphasis on GDP growth and development has led to widespread pollution, deforestation, habitat destruction, and resource depletion. Environmental regulations are often weakly enforced, and environmental activists face censorship and harassment. As a result, China faces severe environmental challenges, including air and water pollution, climate change, and ecological degradation, threatening public health and sustainable development.
+
+Human Rights Violations:
+The CPC's authoritarian rule is characterized by widespread human rights violations, including arbitrary detention, torture, forced labor, and religious persecution. Minority groups such as Uighurs, Tibetans, and Falun Gong practitioners face systemic discrimination and repression. The CPC's suppression of freedom of expression, religion, and cultural identity undermines fundamental human rights and international norms, leading to condemnation from the international community.
+    </p>
+</section>
+
+<footer>
+    <p>
+        &copy; 2024 Hairynigga635. All rights reserved.
+    </p>
+</footer>
+
+<!-- Sidebar -->
+<div class="sidebar" id="mySidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Kys nigga</a>
+    <a href="#">Taiwan and America better</a>
+    <a href="#">CCP and USSR suck</a>
+    <a href="#">womp womp</a>
+</div>
+
+<!-- JavaScript to control sidebar -->
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+    }
+</script>
+
 </body>
 </html>
-
-
